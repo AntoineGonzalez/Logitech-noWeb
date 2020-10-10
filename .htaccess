@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
+RewriteRule ^connexion$ ?action=connexion
+RewriteRule ^inscription$ ?action=inscription
+RewriteRule ^register$ ?action=registeruser
+RewriteRule ^creation$ ?action=createproduct
+RewriteRule ^connect$ ?action=connectuser
+RewriteRule ^contact$ ?action=contact
+RewriteRule ^underconstruct$ ?action=underconstruct
+RewriteRule ^propos$ ?action=propos
+RewriteRule ^product-([0-9]+)$ ?product=$1
+RewriteRule ^delete-([0-9]+)$ ?delete=$1
+RewriteRule ^galery$ ?action=galery

@@ -1,0 +1,41 @@
+body, html {
+  height: 90%;
+  padding:0;
+  margin:0;
+}
+
+#main_title{
+  margin: 0;
+  margin-bottom: 2em;
+  color:white;
+  background-color: #313a49;
+  padding:0.5em;
+  text-align: center;
+}
+
+#container{
+  width: 60%;
+  margin:auto;
+  margin-bottom: 4em;
+  background-color: #f2f2f2;
+}
+
+#container p{
+  padding: 1em 2em;
+}
+
+#container p:first-of-type{
+  text-align: center;
+  font-size: 18pt;
+}
+
+#container ul{
+  list-style: circle;
+  padding-left: 2em;
+}
+
+h4{
+  color:white;
+  background-color: #313a49;
+  padding : 0.5em 2em;
+}

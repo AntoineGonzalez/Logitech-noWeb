@@ -1,0 +1,54 @@
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+#navbar {
+  font-size: 20px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#navbar li {
+  border-right: 1px solid #bbb;
+  float: left;
+}
+
+#navbar li a:hover {
+  font-weight: bold;
+  color:green;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* Change the link color to #111 (black) on hover */
+#li a:hover {
+  background-color: #111;
+}
+
+/* Align connexion menu item on the right of the navbar */
+#navbar .float_right {
+  float:right;
+  display:block;
+  border-left: 1px solid #bbb;
+}

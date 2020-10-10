@@ -1,0 +1,20 @@
+body, html {
+  height: 90%;
+  padding:0;
+  margin:0;
+}
+
+#main_title{
+  margin: 0;
+  margin-bottom: 2em;
+  color:white;
+  background-color: #313a49;
+  padding:0.5em;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+}

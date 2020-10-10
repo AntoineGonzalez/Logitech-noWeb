@@ -1,0 +1,49 @@
+body, html {
+  height: 90%;
+  padding:0;
+  margin:0;
+}
+
+input, select , textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color : red;
+  font-size:15px;
+  font-style: italic;
+}
+
+.container_form {
+  width:50%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border: solid black 3px;
+  padding: 20px;
+  margin:auto;
+  margin-bottom: 4em;
+  font-size: 20px;
+  color:black;
+}
